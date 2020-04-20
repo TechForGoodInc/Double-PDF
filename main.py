@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("Double PDF")
         MainWindow.resize(800, 431)
         MainWindow.setFixedSize(800, 431)
-        MainWindow.setWindowIcon(QtGui.QIcon('DoublePDF.png'))
+        MainWindow.setWindowIcon(QtGui.QIcon('DoublePDF.ico'))
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
