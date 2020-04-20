@@ -5,6 +5,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QUrl
 from PyPDF2 import PdfFileReader, PdfFileWriter
 import os
+import images
 
 
 def reverse(pdf_reader, path):
@@ -26,7 +27,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("Double PDF")
         MainWindow.resize(800, 431)
         MainWindow.setFixedSize(800, 431)
-        MainWindow.setWindowIcon(QtGui.QIcon('DoublePDF.ico'))
+        MainWindow.setWindowIcon(QtGui.QIcon(":/doublePDFicon/DoublePDF.ico"))
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
