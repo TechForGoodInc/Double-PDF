@@ -9,6 +9,10 @@ Steps to achieve a double-sided PDF:
 4. Click the buttons for the front and back sides and select the front side PDF and the back side PDF.
 5. Click submit and the merged file will be in the same directory as the PDF files that you selected. The filename for the merged file will contain the name of the front side PDF, a plus sign, and the name of the back side PDF.
 
+
+![TroubledRuddy78](https://user-images.githubusercontent.com/18247709/80286901-2e023a80-86fc-11ea-8d46-b79ccd601b11.png)
+
+
 ## Compiling from source code
 
 Required modules:
