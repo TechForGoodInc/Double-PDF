@@ -122,7 +122,15 @@ class Ui_MainWindow(object):
         output = self.paths['front']
         output = output[:output.rindex("/")]
 
-        output += "/merged.pdf"
+        front_path = self.paths['front']
+        back_path = self.paths['back']
+
+        print(f'{front_path=}')
+        print(f'{front_path.rindex("/")}')
+        print(f'{front_path[front_path.rindex("/") + 1: front_path.rindex(".")]}')
+        file_name = f'{front_path[front_path.rindex("/") + 1: front_path.rindex(".")]} + {back_path[back_path.rindex("/") + 1:back_path.rindex(".")]}.pdf'
+        
+        output += f'\{file_name}'
 
         for path in self.paths.keys():
             pdf_reader = PdfFileReader(self.paths[path])
