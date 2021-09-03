@@ -265,6 +265,7 @@ class Ui_MainWindow(QtGui.QWindow):
         for page in page_list:
             pdf_writer.addPage(page)
 
+        os.remove(path_reversed)
 
         if os.path.exists(output):
 
@@ -291,7 +292,6 @@ class Ui_MainWindow(QtGui.QWindow):
 
         directory = output[:output.rindex("/")]
 
-        os.remove(path_reversed)
 
         if platform.system() == "Windows":
             os.startfile(directory)
