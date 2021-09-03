@@ -6,11 +6,11 @@ Steps to achieve a double-sided PDF:
 1. Place the pages (front side) in the feeder and verify that the scanner outputs into PDF format.
 2. After the front-sided scanning is complete, place the pages (back-side) in the feeder.
 3. Run DoublePDF.
-4. Select the front and back pages pdfs. Click Submit.
-5. A new file will appear in the same directory as the program with the following name structure: front_side pdf name plus (+) back_side pdf name. For example, "FrontPages + BackPages".
+4. Select the front and back pages pdfs or upload by dragging the front & back page pdfs onto their respective buttons. Click Generate.
+5. A new file will appear in the same directory as the program with the following name structure: front_side pdf name plus (+) back_side pdf name. For example, "FrontPages + BackPages". If you are on Windows, explorer will open automatically to the directory of the files.
 
 
-![TroubledRuddy78](https://user-images.githubusercontent.com/18247709/80286901-2e023a80-86fc-11ea-8d46-b79ccd601b11.png)
+![DoublePDf UI](https://user-images.githubusercontent.com/18247709/131937296-812a2e19-b4a3-48ef-bd09-116a893d2ef6.png)
 
 
 ## Compiling from source code
